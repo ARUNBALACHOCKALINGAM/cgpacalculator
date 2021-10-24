@@ -1,0 +1,36 @@
+.controls {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px;
+  color: white;
+}
+.form {
+  margin: 0 auto;
+}
+
+.options {
+  display: flex;
+  margin: 0 auto;
+}
+
+.credits {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ffe920;
+  margin-left: 25px;
+}
+
+.grades {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: #ffe920;
+}
+
+i {
+  pointer-events: none;
+  cursor: none;
+}

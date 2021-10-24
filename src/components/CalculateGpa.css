@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  width: 65%;
+  background-color: #7b0d7f;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  z-index: -1;
+}
+.container h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
