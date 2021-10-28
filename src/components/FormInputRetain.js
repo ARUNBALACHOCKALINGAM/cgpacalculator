@@ -56,7 +56,7 @@ function FormInputRetain(props) {
           variant="filled"
           className="retaingpa"
           name="retaingpa"
-          label="POINTS TO RETAIN"
+          label="CGPA TO RETAIN\ATTAIN"
           max="9"
           onChange={handleretainChange}
         />

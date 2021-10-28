@@ -15,17 +15,12 @@ import Retain from "./components/Retain";
 import { useTheme } from "@emotion/react";
 
 function App() {
-
-
-  return (
-  
-    <div className="App">
+ return (
+   <div className="App">
   <BrowserRouter>
      <Header />
-     
-      
-      <Switch>
-      <Route path="/">
+     <Switch>
+      <Route path="/" exact>
            <CalculateGpa />
         </Route>
         <Route path="/gpa">
