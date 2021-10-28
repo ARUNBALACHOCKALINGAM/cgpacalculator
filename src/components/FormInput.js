@@ -34,7 +34,8 @@ function FormInput(props) {
     <div>
       {Array(10)
         .fill(0)
-        .map((value, index) => {
+        .map((index) => {
+          
           return (
             <div className="controls">
               <form className="form">
@@ -108,6 +109,7 @@ function FormInput(props) {
               </form>
             </div>
           );
+          
         })}
       <Button
         type="submit"

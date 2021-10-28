@@ -4,9 +4,6 @@ import {Link} from 'react-router-dom';
 
 function Header() {
 
-  function toggleMode(){
-     
-  }
 
   return (
     <div className="header">

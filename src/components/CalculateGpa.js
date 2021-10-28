@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-
 //style
 import "./CalculateGpa.css";
-
 //components
-
 import FormInput from "./FormInput";
 import DisplayResult from "./UI/DisplayResult";
 
