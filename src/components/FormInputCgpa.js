@@ -48,7 +48,7 @@ function FormInputCgpa(props) {
           style={{
             width: "510px",
             marginTop: "20px",
-            backgroundColor: "#ffe920",
+            backgroundColor: "#C4CAEF",
             WebkitAppearance: "none",
           }}
           type="number"
@@ -64,7 +64,7 @@ function FormInputCgpa(props) {
           style={{
             width: "510px",
             marginTop: "20px",
-            backgroundColor: "#ffe920",
+            backgroundColor: "#C4CAEF",
           }}
           value={currentCredits}
           type="number"
@@ -79,7 +79,7 @@ function FormInputCgpa(props) {
           style={{
             width: "510px",
             marginTop: "20px",
-            backgroundColor: "#ffe920",
+            backgroundColor: "#C4CAEF",
           }}
           variant="filled"
           type="number"
@@ -95,7 +95,7 @@ function FormInputCgpa(props) {
             width: "510px",
             marginTop: "20px",
             marginBottom: "20px",
-            backgroundColor: "#ffe920",
+            backgroundColor: "#C4CAEF",
           }}
           variant="filled"
           type="number"
@@ -116,7 +116,7 @@ function FormInputCgpa(props) {
             style={{
               width: "250px",
               marginRight: "4px",
-              backgroundColor: "#ffe920",
+              backgroundColor: "#C4CAEF",
               marginTop: "20px",
               marginBottom: "30px",
               color: "black",
@@ -134,7 +134,7 @@ function FormInputCgpa(props) {
             style={{
               width: "250px",
               marginRight: "4px",
-              backgroundColor: "#ffe920",
+              backgroundColor: "#C4CAEF",
               marginTop: "20px",
               marginBottom: "30px",
               color: "black",

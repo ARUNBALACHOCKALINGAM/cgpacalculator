@@ -11,8 +11,8 @@
 .cotainer {
   width: 50%;
   text-align: center;
-  background-color: #7b0d7f;
-  color: #fff;
+  background-color: #F9F871;
+  color: black;
   border-radius: 10px;
   z-index: 10;
   margin: 0 auto;
@@ -23,7 +23,7 @@
 .header {
   border-radius: 10px 10px 0px 0px;
   text-align: center;
-  background-color: #4f005f;
+  background-color:#FFD984;
   padding: 10px;
 }
 

@@ -79,7 +79,7 @@ function FormInput(props) {
                       className="button"
                       name={index}
                       style={{
-                        backgroundColor: "#ffe920",
+                        backgroundColor: "#C4CAEF",
                         width: "fit-content",
                         textAlign: "center",
                         height: "0px",
@@ -118,7 +118,7 @@ function FormInput(props) {
         style={{
           width: "485px",
           marginRight: "4px",
-          backgroundColor: "#ffe920",
+          backgroundColor: "#C4CAEF",
           marginTop: "10px",
           marginBottom: "30px",
           color: "black",

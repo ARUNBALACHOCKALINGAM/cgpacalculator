@@ -64,7 +64,7 @@ function Retain(props) {
       )}
       <div className="gpa">
         <div className="container">
-          <h1>CALCULATE GPA</h1>
+          <h1>WANT TO RETAIN?</h1>
           <FormInputRetain onCalculate={retainCgpa} />
         </div>
       </div>

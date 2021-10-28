@@ -25,7 +25,7 @@ function DisplayResult(props) {
             style={{
               width: "150px",
               marginRight: "4px",
-              backgroundColor: "#ffe920",
+              backgroundColor: "#FFC4B3",
               marginTop: "10px",
               marginBottom: "30px",
               color: "black",
