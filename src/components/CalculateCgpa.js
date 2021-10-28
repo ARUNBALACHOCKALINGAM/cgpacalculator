@@ -38,7 +38,6 @@ function CalculateCgpa(props) {
     }
   }
   function errorHandler() {
-    console.log("hello");
     setError(null);
   }
 
@@ -58,7 +57,7 @@ function CalculateCgpa(props) {
               </i>
             )
           }
-          message={`Your gpa is ${cgpa} 😇 `}
+          message={`Your cgpa is ${cgpa} 😇 `}
           gpa={cgpa}
           onConfirm={errorHandler}
         />

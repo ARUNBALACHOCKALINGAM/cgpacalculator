@@ -3,13 +3,7 @@ import { useState } from "react";
 import "./FormInputCgpa.css";
 //UI components
 import TextField from "@material-ui/core/TextField";
-import Autocomplete from "@material-ui/lab/Autocomplete";
-import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
-import RotateLeftIcon from "@mui/icons-material/RotateLeft";
-import Popper from "@material-ui/core/Popper";
-import { makeStyles, createStyles } from "@material-ui/core/styles";
-import { Input } from "@mui/material";
 
 function FormInputCgpa(props) {
   const [currentGpa, setcurrentGpa] = useState("");

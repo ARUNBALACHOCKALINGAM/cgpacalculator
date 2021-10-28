@@ -2,21 +2,12 @@ import React from "react";
 import { useState } from "react";
 import "./FormInput.css";
 //UI components
-import TextField from "@material-ui/core/TextField";
-import Autocomplete from "@material-ui/lab/Autocomplete";
-import FormControl from "@material-ui/core/FormControl";
 import Button from "@material-ui/core/Button";
 import RotateLeftIcon from "@mui/icons-material/RotateLeft";
-import Popper from "@material-ui/core/Popper";
-import { makeStyles, createStyles } from "@material-ui/core/styles";
-
-const CustomPopper = (props) => {
-  return <Popper {...props} />;
-};
 
 function FormInput(props) {
   const [data, setData] = useState({});
-  const grades = ["A", "B", "C", "D", "E", "F"];
+
 
   function handleChange(e) {
     setData({ ...data, [e.target.name]: parseInt(e.target.value) });
