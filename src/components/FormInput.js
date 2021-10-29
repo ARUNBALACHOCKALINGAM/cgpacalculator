@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 import React from "react";
 import { useState } from "react";
 import "./FormInput.css";
@@ -24,6 +26,7 @@ function FormInput(props) {
     let creditindex = "credit" + e.target.name;
     let gradeindex = "grade" + e.target.name;
     setData({ ...data, [creditindex]: 0, [gradeindex]: 0 });
+   
     const element = document.getElementsByName(`${creditindex}`);
     const gradeel = document.getElementsByName(`${gradeindex}`);
     element.forEach((element) => (element.value = "0"));
@@ -31,12 +34,14 @@ function FormInput(props) {
   }
 
   const arr=["0","0","0","0","0","0","0","0","0","0"];
+  
 
   return (
     <div>
-      { arr.map((index)=>(
-            
-  <div className="controls">
+ 
+  { //eslint-disable-next-line
+  arr.map((value,index)=>(
+   <div className="controls">
     <form className="form">
       <div className="options">
         <select
